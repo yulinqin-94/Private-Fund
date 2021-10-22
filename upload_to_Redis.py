@@ -7,21 +7,12 @@ r = redis.Redis(host="", port=, password="")
 dte = int(datetime.datetime.today().strftime('%Y%m%d'))
 
 file_path_dict = {
-    "DCL5Q_901": {
-        "FUND": r"D:\matic\downloads\666800008221_FUND.{}.csv".format(dte),
-        "POSITION": r"D:\matic\downloads\666800008221_POSITION.{}.csv".format(dte),
-        "DETAIL": r"D:\matic\downloads\666800008221_DEAL.{}.csv".format(dte),
-        "ENTRUST": r"D:\matic\downloads\666800008221_ENTRUST.{}.csv".format(dte)
+    "key": {
+        "FUND": r"D:\xxx.{}.csv".format(dte),
+        "POSITION": r"D:\xxx.{}.csv".format(dte),
+        "DETAIL": r"D:\xxx.{}.csv".format(dte),
+        "ENTRUST": r"D:\xxx.{}.csv".format(dte)
     },
-    "DCL5Q_902": {
-        "COMPACT": r"D:\matic\downloads\933010000141_RZRQ_COMPACT.{}.csv".format(dte),
-        "COMPACTDEAL": r"D:\matic\downloads\933010000141_RZRQ_COMPACTDEAL.{}.csv".format(dte),
-        "ENABLEAMOUNT": r"D:\matic\downloads\933010000141_RZRQ_ENABLEAMOUNT.{}.csv".format(dte),
-        "FUND": r"D:\matic\downloads\933010000141_RZRQ_FUND.{}.csv".format(dte),
-        "POSITION": r"D:\matic\downloads\933010000141_RZRQ_POSITION.{}.csv".format(dte),
-        "DETAIL": r"D:\matic\downloads\933010000141_RZRQ_DEAL.{}.csv".format(dte),
-        "ENTRUST": r"D:\matic\downloads\933010000141_RZRQ_ENTRUST.{}.csv".format(dte)
-    }
 }
 
 
